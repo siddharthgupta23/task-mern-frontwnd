@@ -13,7 +13,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://task-mern-backend-xfpx.onrender.com/api/contact", formData);
+      await axios.post("https://task-mern-backend-4fsu.onrender.com/api/contact", formData);
       setSuccess("Message sent successfully!");
       setError("");
     } catch (err) {
