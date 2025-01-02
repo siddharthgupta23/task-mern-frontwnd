@@ -18,7 +18,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       // Simulate API call for signup
-      await fetch("/api/signup", {
+      await fetch("https://task-mern-backend-xfpx.onrender.com/api/signup", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" },

@@ -14,7 +14,7 @@
 
 import axios from "axios";
 
-const API_URL = "http://localhost:5001/api"; // Replace with your backend API URL
+const API_URL = "https://task-mern-backend-xfpx.onrender.com/api"; // Replace with your backend API URL
 
 export const checkBooking = async (date, time) => {
   try {

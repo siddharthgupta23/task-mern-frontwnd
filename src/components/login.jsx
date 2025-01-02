@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // Simulate API call for login
-      await fetch("/api/login", {
+      await fetch("https://task-mern-backend-xfpx.onrender.com/api/login", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" },
